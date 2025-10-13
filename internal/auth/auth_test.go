@@ -14,8 +14,8 @@ type T struct {
 
 func TestSplit(t *testing.T) {
 
-	x := []*T{{1}, {2}, {3}}
-	y := []*T{{1}, {2}, {3}}
+	x := []*T{{1}, {2}, {32}}
+	y := []*T{{1}, {2}, {32}}
 
 	compar := reflect.DeepEqual(x, y)
 
