@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+// yes, I know this is a useless test file
+// just trying to get CI/CD working
 type T struct {
 	t int
 }
