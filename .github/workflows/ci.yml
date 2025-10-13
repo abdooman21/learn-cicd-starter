@@ -18,7 +18,8 @@ jobs:
         with:
           go-version: "1.25.1"
 
-      - name: check version
-        run: go version
+      - name: runs auth tests
+        run: go test -v ./internal/auth
+
       # - name: Force Failure
       #   run: (exit 1)
