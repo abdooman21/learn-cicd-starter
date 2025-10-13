@@ -6,14 +6,16 @@ import (
 	"testing"
 )
 
+// yes, I know this is a useless test file
+// just trying to get CI/CD working
 type T struct {
 	t int
 }
 
 func TestSplit(t *testing.T) {
 
-	x := []*T{{1}, {2}, {3}}
-	y := []*T{{1}, {2}, {3}}
+	x := []*T{{1}, {2}, {32}}
+	y := []*T{{1}, {2}, {32}}
 
 	compar := reflect.DeepEqual(x, y)
 
